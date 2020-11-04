@@ -18,12 +18,6 @@ public class CheckNumber {
 			System.out.println("Given Number is Positive");
 		else
 			System.out.println("Given Number is Negative");
-		
-		LocalDate ld1 = LocalDate.now();
-		LocalDate ld2 = LocalDate.of(1998, 05, 14);
-
-		long years = ChronoUnit.DAYS.between(ld2, ld1);
-		System.out.println(years);
 	
 	}
 }
